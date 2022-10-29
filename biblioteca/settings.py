@@ -36,7 +36,7 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://biblioteca-cedup-guaramirim.herokuapp.com/']
+ALLOWED_HOSTS = ['https://biblioteca-cedup-guaramirim.herokuapp.com/auth/login/']
 
 
 # Application definition
