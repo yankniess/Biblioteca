@@ -147,7 +147,8 @@ STATICFILES_DIRS = [
 ]
 
 # Enable WhiteNoise's GZip compression of static assets.
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE =("django_forgiving_collecstatic.storages.ForgivingManifestStaticFilesStorage"
+)
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 django_heroku.settings(locals())
